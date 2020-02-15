@@ -1,4 +1,3 @@
-print('Hello World')
-var = 200
-print(var)
-print('100')
+#Словари
+info = {'one':'best','two':'long'}
+print(info)
