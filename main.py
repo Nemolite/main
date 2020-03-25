@@ -1,7 +1,17 @@
-def add2(num1,num2):
-	sum2 = num1 + num2
-	return sum2
-res = add2(2,2)
-print(res)
+class Person:
+    name = "Tom"
+ 
+    def display_info(self):
+        print("Привет, меня зовут", self.name)
+
+# Пример следующего кода
+
+ 
+person1 = Person()
+person1.display_info()         # Привет, меня зовут Tom
+ 
+person2 = Person()
+person2.name = "Sam"
+person2.display_info()         # Привет, меня зовут Sam
 
 
