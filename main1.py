@@ -1,3 +1,4 @@
+import time
 class Test:
 	def sumer(self,per1,per2):
 		self.n = per1
@@ -18,3 +19,6 @@ print(obj1.res) #сумма 5
 
 #
 print(dir(obj1))
+
+
+print(time.time())
