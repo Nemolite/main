@@ -14,3 +14,5 @@ obj.car_method()
 
 obj1 = A()
 obj1.vehicle_method()
+
+print(obj1)
