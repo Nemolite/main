@@ -11,3 +11,7 @@ class myClass:
 obj1 = myClass()
 obj1.start(23,32)    	
 obj1.show()
+
+print(myClass)
+print(dir(myClass))
+print(myClass.__init__)
