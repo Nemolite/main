@@ -17,3 +17,10 @@ n1,n2,n3 = str1
 print(n1)
 print(n2)
 print(n3)
+
+arr1 = ('first','2','3','4','finish')
+
+x1,*x2,x3 = arr1
+print(x1)
+print(x2)
+print(x3)
