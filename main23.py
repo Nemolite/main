@@ -1,5 +1,13 @@
 from tkinter import *
-root1 = Tk()
-root2 = Tk()
-root1.after(500, root1.mainloop) # первый цикл запускаем в фоне
-root2.mainloop()
+def Hello(event):
+    print ("Yet another hello world")
+root = Tk()
+btn = Button(root,                  
+             text="Жми",       
+             width=30,height=5,     
+             bg="white",fg="black") 
+btn.bind("<Button-1>", Hello)       
+btn.pack()                          
+root.mainloop()
+
+
