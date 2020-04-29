@@ -1,6 +1,8 @@
 from tkinter import *
 def Hello(event):
     print ("Yet another hello world")
+    label1 = Label(text="Hello Python", fg="#eee", bg="#333")
+    label1.pack()
 root = Tk()
 btn = Button(root,                  
              text="Жми",       
