@@ -14,7 +14,7 @@ def makeitalic(fn):
     return wrapped
  
 @makebold
-#@makeitalic
+@makeitalic
 def hello():
 	return "плюс hello"
 
