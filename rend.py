@@ -1,14 +1,17 @@
 from flask import Flask
 from flask import render_template
+from flask import request
+
+
 
 app = Flask(__name__)
 
-@app.route("/param/<name>")
-def hello(name=None):
-	#return render_template('rend.html')
-    #return "Hello World!"
-    return render_template('rend.html', name=name)
-
+@app.route("/", methods=['GET', 'POST'])
+def reder():
+	temp = request.data
+    print(temp)
+	return render_template('inx.html',temp)
+    
 
 if __name__ == "__main__":
     app.run()
